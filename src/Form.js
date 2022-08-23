@@ -8,6 +8,8 @@ const Form = () => {
   function submitForm() {
     setIsSubmitted(true);
   }
+  
+  
 
   return (
     <>{!isSubmitted ? <FormSignup submitForm={submitForm} /> : <p>gopal</p>}</>
